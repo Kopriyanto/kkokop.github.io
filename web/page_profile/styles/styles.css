@@ -138,6 +138,8 @@ nav form button{
         width: 100%;
     }
     .img{
-        margin-left: 90px;
+        size-adjust: 20%;
+        display: flex;
+        justify-content: center;
     }
 }
