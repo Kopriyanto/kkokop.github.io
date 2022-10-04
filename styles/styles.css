@@ -29,7 +29,7 @@
     font-weight: 500;
 }
 .h1{
-    color: #003566;
+    color: #003566 !important;
     font-size: 10vw;
     position: absolute;
     top: 30%;

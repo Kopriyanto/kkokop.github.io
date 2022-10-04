@@ -1,3 +1,6 @@
+body, html{
+    height: 100%;
+}
 .a1{
     text-decoration: none;
     border-radius: 30px;
@@ -16,12 +19,22 @@
 .fw-bolder:hover{
     color: #FFC500;
 }
-.fw-bolder h1{
-    font-size: 10vw;
+.hero-image{
+    background-image:url("https://raw.githubusercontent.com/kkokop/MSIB/master/ball3Dpng.png");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-.fw-bolder h2{
-    margin-left: 10%;
-    font-size: 5vw;
+.h1-text{
+    background-color: #FFC500;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #003566;
 }
 nav{
     background-color: white;
