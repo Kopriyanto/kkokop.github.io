@@ -1,0 +1,45 @@
+.fw-bolder{
+    margin: 5%;
+    color: #003566;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.fw-bolder:hover{
+    color: #FFC500;
+}
+.fw-bolder h1{
+    font-size: 10vw;
+}
+.fw-bolder h2{
+    margin-left: 10%;
+    font-size: 5vw;
+}
+nav{
+    background-color: white;
+    float: none;
+}
+nav  ul{
+    background-color: white;
+    height: max-content;
+    width: fit-content;
+    border-radius: 30px;
+}
+nav ul li{
+    background-color: white;
+    border-radius: 30px;
+    color: white;
+}
+nav ul li:hover{
+    border-radius: 30px;
+    background-color: #FFC500;
+    color: black;
+}
+nav ul li a:hover{
+    padding: 5px;
+}
+nav form button{
+    border-radius: 30px;
+}
