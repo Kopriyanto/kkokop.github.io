@@ -61,12 +61,15 @@ body, html{
     text-align:center;
     background-color: #FFC500;
 }
+.liwel:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .wel:hover{
     color: white;
 }
-.h1-text:hover{
+.u:hover{
     color: white;
-    padding: 10px;
 }
 .button1{
     border-radius: 30px;
@@ -115,6 +118,9 @@ nav form button{
     object-position: center;
     border-radius: 30px;
     background-color: #FFC500;
+}
+.ava:hover{
+    padding: 5px;
 }
 .dot {
     position: relative;

@@ -88,6 +88,11 @@ nav ul li a:hover{
 nav form button{
     border-radius: 30px;
 }
+.fot{
+    max-height: fit-content;
+    display: flex;
+    margin-left: 55px;
+}
 .my-3{
     margin-left: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -119,13 +124,13 @@ nav form button{
 .column{
     float: left;
     padding: 12px;
-    height: 350px;
+    height: 270px;
 }
 .left{
-    width: 25%;
+    width: 30%;
 }
 .right{
-    width: 75%;
+    width: 70%;
 }
 .both-row:after{
     content: "";
@@ -133,7 +138,7 @@ nav form button{
     clear: both;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
     .column {
         width: 100%;
     }
@@ -141,5 +146,8 @@ nav form button{
         size-adjust: 20%;
         display: flex;
         justify-content: center;
+    }
+    .fot{
+        margin: 0px;
     }
 }
