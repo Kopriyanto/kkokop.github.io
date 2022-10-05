@@ -124,7 +124,7 @@ nav form button{
 .column{
     float: left;
     padding: 12px;
-    height: 270px;
+    height: fit-content;
 }
 .left{
     width: 30%;
