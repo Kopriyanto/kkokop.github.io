@@ -40,7 +40,7 @@ body, html{
 }
 .h1-text{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -50,6 +50,7 @@ body, html{
     color: #003566;
 }
 .ulwel{
+    position: absolute;
     text-decoration: none;
 }
 .liwel{
@@ -106,24 +107,34 @@ nav ul li a:hover{
 nav form button{
     border-radius: 30px;
 }
-
+.kop{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    object-position: center;
+    border-radius: 30px;
+    background-color: #FFC500;
+}
 .dot {
     height: 25px;
     width: 25px;
     background-color: #FFC500;
     border-radius: 50%;
     display: inline-block;
-  }
-  .dot:hover{
+}
+.dot:hover{
     background-color: #003566;
-  }
-
+}
+.ava{
+    object-position: center;
+    height: 60px;
+    width: 60px;
+}
 @media screen and (max-width:800px) {
     .wel{
         font-size: 13vw;
     }
     .h1-text{
-        top: 50%;
+        top: 30%;
         left: 50%;
     }
     .dot{
