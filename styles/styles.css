@@ -39,8 +39,10 @@ body, html{
     position: relative;
 }
 .h1-text{
-    position: absolute;
-    top: 20%;
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -115,7 +117,7 @@ nav form button{
     background-color: #FFC500;
 }
 .dot {
-    position: absolute;
+    position: relative;
     height: 25px;
     width: 25px;
     background-color: #FFC500;
@@ -135,7 +137,10 @@ nav form button{
         font-size: 13vw;
     }
     .h1-text{
-        top: 30%;
+        position: relative;
+        z-index: 2;
+        min-width: 300px;
+        top: 20%;
         left: 50%;
     }
     .dot{
